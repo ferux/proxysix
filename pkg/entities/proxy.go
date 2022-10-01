@@ -93,3 +93,5 @@ func (s Sensitive[T]) MarshalText() (text []byte, err error) {
 func (s *Sensitive[T]) Allow() {
 	s.allow = true
 }
+
+func (s Sensitive[T]) Value() T { return s.value }
