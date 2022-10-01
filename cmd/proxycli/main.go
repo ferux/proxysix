@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/bigstats/proxysix/pkg/client"
+	"github.com/ferux/proxysix/pkg/client"
 	"github.com/urfave/cli/v2"
 )
 
